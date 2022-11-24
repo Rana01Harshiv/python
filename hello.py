@@ -1,4 +1,3 @@
-
 #pyhton program 
 print("hello python ")
 
@@ -88,4 +87,10 @@ print(a.lower())
 a = "  hello this is a without space "
 print(a.strip())
 
+#give the result in bool form true or false
+print(10 > 9)
+print(bool("Hello"))    # give true
+print(bool())           #returns false
+
+#continue with the operators topic in next day // date 25-11-2022 //
 
