@@ -92,5 +92,50 @@ print(10 > 9)
 print(bool("Hello"))    # give true
 print(bool())           #returns false
 
-#continue with the operators topic in next day // date 25-11-2022 //
+#continue with the operators topic in next day // date 25-11-2022 // 18:12PM
+#Arithmetic operators  + - * / % ** // 
+#Assignment operators   = += -= *= /= 
+#Comparison operators   == != > < >= <= 
+#Logical operators      and or not 
+#Identity operators   is isnot 
+#Membership operators   in notin
+#Bitwise operators  & | ^ ~ << >>
+
+#List data type
+app = ["one","two","three"]  
+print(app)    # it is changable, ordered and it allows the duplicate values 
+print(len(app))    
+print(type(app))
+print(app[2])   #accessing the list by using thier index 
+print(app[-2])
+print(app[1:3])
+
+#tuple data type 
+app = ("one","two","three")
+print(type(app))
+for i in app:
+  print(i)
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+#set data type 
+app = {"one","two","three"}   #unchangable unindexed unordred 
+
+#dict
+app = {
+  "name" : "helli",
+  "age" : "19"
+}
+a = app.values()
+b = app.keys()
+print(a)
+print(b)
+
+print(app)
+print(type(app))
+
 
